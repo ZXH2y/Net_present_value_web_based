@@ -21,16 +21,16 @@
     </a>
 
     <div class="hidden md:flex items-center gap-8 transition duration-500">
-        <a href="home.html" class="hover:text-purple-500 transition">
+        <a href="home.html" class="hover:text-amber-900 transition">
             Home
         </a>
-        <a href="/products" class="hover:text-purple-500 transition">
-            Products
+        <a href="index.php" class="hover:text-yellow-500 transition">
+            Hitung NPV
         </a>
-        <a href="/stories" class="hover:text-purple-500 transition">
+        <a href="/stories" class="hover:text-yellow-500 transition">
             Stories
         </a>
-        <a href="/pricing" class="hover:text-purple-500 transition">
+        <a href="/pricing" class="hover:text-yellow-500 transition">
             Pricing
         </a>
     </div>
