@@ -8,3 +8,6 @@
     text-shadow: 0 0 8px rgba(251, 191, 36, 0.6);
   }
 }
+@theme {
+  --spacing-128: 32rem;
+}

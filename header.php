@@ -21,7 +21,7 @@
     </a>
 
     <div class="hidden md:flex items-center gap-8 transition duration-500">
-        <a href="home.html" class="hover:text-amber-900 transition">
+        <a href="home.php" class="hover:text-amber-900 transition">
             Home
         </a>
         <a href="index.php" class="hover:text-yellow-500 transition">
@@ -43,7 +43,7 @@
     </button>
 </nav>
 <div id="mobile-navlinks" class="fixed inset-0 z-[100] bg-black/40 text-white backdrop-blur flex flex-col items-center justify-center text-lg gap-8 md:hidden transition-transform duration-300 -translate-x-full">
-    <a href="home.html">
+    <a href="home.php">
         Home
     </a>
     <a href="/products">
