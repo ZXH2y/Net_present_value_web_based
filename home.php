@@ -26,7 +26,7 @@
                 stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
         </svg> -->
         <a href="https://github.com/ZXH2y">
-        <h3 class ="text-md text-gold-soft font-semibold tracking-wide">Net Present Value</h3>
+        <h3 class ="text-md text-gold-soft font-semibold tracking-wide text-lg">Net Present Value</h3>
     </a>
 
     <div class="hidden md:flex items-center gap-8 transition duration-500">

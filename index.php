@@ -37,9 +37,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['hitung'])) {
 // === GANTI BACKGROUND DI SINI ===
 // type: 'image' atau 'video' — cukup ganti baris ini untuk pindah mode
 $background = [
-    'type'  => 'image',
-    'image' => './gambar/main-img.jpg',
-    'video' => './gambar/main-video.mp4',
+    'type'  => 'video',
+    // 'image' => './gambar/main-img.jpg',
+    'video' => './gambar/bg-video.mp4',
 ];
 
 require __DIR__ . '/header.php';
@@ -185,7 +185,8 @@ require __DIR__ . '/header.php';
   </div>
   <div class="bg-scrim"></div>
 
-  <div class="npv-wrap">
+  <div class="mt-10 py-30"></div>
+  <div class="npv-wrap my-10">
     <div class="npv-intro">
       <span class="npv-eyebrow">Kelayakan investasi</span>
       <h2>Hitung Net Present Value</h2>
