@@ -168,6 +168,10 @@ require __DIR__ . '/header.php';
     .result, .spark polyline { animation: none; }
     .spark polyline { stroke-dashoffset: 0; }
   }
+  /* .title_small{
+    color: black;
+    background-color: #f2748a;
+  } */
 </style>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -190,7 +194,8 @@ require __DIR__ . '/header.php';
     <div class="npv-intro">
       <span class="npv-eyebrow">Kelayakan investasi</span>
       <h2>Hitung Net Present Value</h2>
-      <p>Masukkan investasi awal, tingkat diskonto, dan proyeksi arus kas untuk melihat apakah rencana ini layak dijalankan.</p>
+      <div class="bg-cyan-200"></div>
+      <p class="title_small text-red-900">Masukkan investasi awal, tingkat diskonto, dan proyeksi arus kas untuk melihat apakah rencana ini layak dijalankan.</p>
     </div>
 
     <div class="glass-card">
